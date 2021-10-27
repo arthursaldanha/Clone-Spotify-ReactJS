@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 // Components
 import { Nav, Container, Logo, NavMenu, NavLink } from "./Components";

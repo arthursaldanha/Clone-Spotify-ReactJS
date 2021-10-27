@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import bgImage from "../../images/background.svg"
 
-export const Container = styled.div`
+export const Container = styled.main`
    height: 100vh;
    width: 100%;
    background-color: #2941ab;
