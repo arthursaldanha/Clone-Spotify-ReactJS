@@ -1,16 +1,14 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
-// Pages
-import Home from "./pages/home"
-
+// Routes
+import Routes from "./routes"
 
 function App() {
 
   return (
-    <div>
-      <Home></Home>
-    </div>
+    <>
+      <Routes />
+    </>
   )
 }
 

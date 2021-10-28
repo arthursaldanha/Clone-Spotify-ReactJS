@@ -4,11 +4,11 @@ import ReactDOM from 'react-dom'
 import App from './App'
 
 // Styles
-import ResetCSS from "./styles/ResetCSS"
+import GlobalStyles from "./styles/GlobalStyles"
 
 ReactDOM.render(
   <React.StrictMode>
-    <ResetCSS />
+    <GlobalStyles />
 
     <App />
   </React.StrictMode>,
