@@ -1,14 +1,14 @@
 import React from 'react'
 
-import { Container, Title, Description, ButtonLink } from "./Components"
+import * as S from "./styles"
 
 const HomeContent = () => {
    return (
-      <Container>
-         <Title>Escutar muda tudo</Title>
-         <Description>Milhões de músicas e podcasts para explorar. E nem precisa de cartão de crédito.</Description>
-         <ButtonLink to="/inscrever-se">BAIXE O SPOTIFY FREE</ButtonLink>
-      </Container>
+      <S.Container>
+         <S.Title>Escutar muda tudo</S.Title>
+         <S.Description>Milhões de músicas e podcasts para explorar. E nem precisa de cartão de crédito.</S.Description>
+         <S.ButtonLink to="/inscreverse">BAIXE O SPOTIFY FREE</S.ButtonLink>
+      </S.Container>
    )
 }
 
