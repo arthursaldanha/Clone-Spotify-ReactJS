@@ -6,14 +6,8 @@ const GlobalStyles = createGlobalStyle`
    License: none (public domain)
 */
 
-@font-face {
-	font-family: "Circular Spotify Tx T Black";
-	src: url("../assets/fonts/CircularSpotifyTxT-Black.ttf");
-}
-
 * {
 	box-sizing: border-box;
-	font-family: "Circular Spotify Tx T Black";
 }
 
 html, body, div, span, applet, object, iframe,
@@ -33,7 +27,6 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
