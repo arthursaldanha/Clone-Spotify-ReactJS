@@ -1,7 +1,14 @@
 import React from "react";
 
+// Components
+import { Header, HomeContent, Footer } from "../../components/index";
+
 const Premium = () => {
-  return <h1>Página Premium</h1>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 };
 
 export default Premium;
