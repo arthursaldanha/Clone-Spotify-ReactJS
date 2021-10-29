@@ -7,7 +7,7 @@ export const Header = styled.header`
    background-color: #000;
 `;
 
-export const Container = styled(Header)`
+export const Container = styled.nav`
    height: 100%;
    max-width: 1170px;
    margin: 0 auto;
@@ -35,19 +35,19 @@ export const NavMenu = styled.div`
    flex-direction: row;
    justify-content: space-around;
    align-items: center;
-   
-   .active {
-      color: #1ed760;
-   }
 `;
 
 export const NavLink = styled(Link)`
    font-size: 16px;
    text-decoration: none;
    color: #fff;
+   transition: 0.3s;
 
    &:hover {
-      transition: all 0.3s ease-in-out;
+      color: #1ed760;
+   }
+
+   &.active {
       color: #1ed760;
    }
 `;

@@ -36,6 +36,8 @@ export const Description = styled.p`
    font-weight: 300;
    text-align: center;
    color: #1ed760;
+
+   font-family: "Circular Book"
 `;
 
 export const ButtonLink = styled(Link)`
@@ -48,4 +50,10 @@ export const ButtonLink = styled(Link)`
    text-align: center;
    text-decoration: none;
    line-height: 20px;
+   transition: all 0.3s;
+
+   &:hover {
+   --webkit-transform: scale(1.05);
+   transform: scale(1.05);
+   }
 `;
