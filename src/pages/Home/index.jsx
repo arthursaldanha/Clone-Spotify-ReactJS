@@ -1,15 +1,16 @@
-import React from 'react'
+import React from "react";
 
 // Components
-import { HomeContent, Footer } from "../../components/index"
+import { Header, HomeContent, Footer } from "../../components/index";
 
 const Home = () => {
-   return (
-      <>
-         <HomeContent />
-         <Footer />
-      </>
-   )
-}
+  return (
+    <>
+      <Header />
+      <HomeContent />
+      <Footer />
+    </>
+  );
+};
 
-export default Home
+export default Home;
